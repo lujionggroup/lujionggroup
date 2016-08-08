@@ -1,0 +1,325 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Lu Jiong's Group-Home</title>
+		<meta charset="UTF-8">
+		    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<style type="text/css">
+		body,td,th {
+	font-family: "Open Sans", sans-serif;
+}
+        </style>
+   		 <!-- Custom Theme files -->
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+
+	</head>
+	<body>
+		<!-- container -->
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+				<!-- logo -->
+				<div class="logo"> <a href="index.html"><img src="images/logo.png" title="Lu Jiong's Group"/></a> </div>
+				<!-- logo -->
+				<!-- cart-info -->
+				<div class="cart-info">
+					<ul>
+
+						<li><a href="404.html">Login</a></li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="images/icon/linkedin-icon.png">
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="images/icon/facebook-icon.png">
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="images/icon/instagram-icon.png">
+							</a>
+						</li>
+						<li>
+							<a href="#" target="_blank">
+								<img src="images/icon/youtube-icon.png">
+							</a>
+						</li>
+						<div class="clearfix"> </div>
+					</ul>
+				</div>
+				<!-- /cart-info -->
+			</div>
+			<!-- header -->
+		</div>
+		<!-- sub-header -->
+		<div class="sub-header">
+			<div class="container">
+				<!-- top-nav -->
+				<div class="top-nav">
+					<span class="menu"> </span>
+					<ul>
+						<li class="active"><a href="index.html">Home</a></li>
+						<li><a href="team.html">Team</a></li>
+						<li><a href="research.html">Research</a></li>
+						<li><a href="publications.html">Publications</a></li>
+						<li><a href="facilities.html">Facilities</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="opportunities.html">Opportunities</a></li>
+						<div class="clearfix"> </div>
+					</ul>
+				</div>
+				<!-- top-nav -->
+				<!-- script-for-nav -->
+				<script>
+					$(document).ready(function(){
+						$("span.menu").click(function(){
+							$(".top-nav ul").slideToggle(300);
+						});
+					});
+				</script>
+				<!-- script-for-nav -->
+				<div class="clearfix"> </div>
+				<!-- /search-form -->
+			</div>
+		</div>
+		<!-- /sub-header -->
+		<!-- banner -->
+		<div class="banner">
+			<!--- img-slider --->
+				<div class="img-slider">
+						<!----start-slider-script---->
+					<script src="js/responsiveslides.min.js"></script>
+					 <script>
+					    // You can also use "$(window).load(function() {"
+					    $(function () {
+					      // Slideshow 4
+					      $("#slider4").responsiveSlides({
+					        auto: true,
+					        pager: true,
+					        nav: true,
+					        speed: 500,
+					        namespace: "callbacks",
+					        before: function () {
+					          $('.events').append("<li>before event fired.</li>");
+					        },
+					        after: function () {
+					          $('.events').append("<li>after event fired.</li>");
+					        }
+					      });
+
+					    });
+					  </script>
+					<!----//End-slider-script---->
+					<!-- Slideshow 4 -->
+					    <div  id="top" class="callbacks_container">
+							<ul class="rslides" id="slider4">
+								<li>
+									<p><span> STM image of graphene on hexagonal boron nitride </span></p>
+									<img class="img-responsive" src="images/slide.png" alt="">
+								</li>
+								<li>
+									<p><span> Non-contact AFM image of graphene on hexagonal boron nitride </span></p>
+									<img src="images/slide2.png" alt="">
+								</li>
+								<li>
+									<p><span> STM study of the phase-segregation in 2D hexagonal carbon-boron-nitride alloy</span></p>
+									<img src="images/slide3.png" alt="">
+								</li>
+								<li>
+									<p><span> Non-contact AFM image of F4-TCNQ molecular islands on a gated graphene device </span></p>
+									<img src="images/slide4-model.png" alt="">
+								</li>
+								<li>
+									<p><span> Nano "Bamboo"</span></p>
+									<img src="images/slide5.jpg" alt="">
+								</li>
+							</ul>
+					    </div>
+					    <div class="clearfix"> </div>
+					</div>
+						<!-- slider -->
+		</div>
+		<!-- banner -->
+		<!-- content -->
+		<div class="content">
+			<!-- top-grids -->
+			<div class="top-grids">
+			<div class="container">
+				<div class="product-grids">
+					<!---
+						<!----sreen-gallery-cursual---->
+							 <!-- requried-jsfiles-for owl -->
+							<link href="css/owl.carousel.css" rel="stylesheet">
+							    <script src="js/owl.carousel.js"></script>
+						        <script>
+								    $(document).ready(function() {
+								      $("#owl-demo").owlCarousel({
+								        items : 5,
+								        lazyLoad : true,
+								        autoPlay : true,
+								        navigation : true,
+								        navigationText :  false,
+								        pagination : false,
+								      });
+								    });
+							    </script>
+							 <!-- //requried-jsfiles-for owl -->
+							 <!-- start content_slider -->
+						       <div id="owl-demo" class="owl-carousel text-center">
+					                <div class="item">
+					                	<div class="product-grid">
+											<div class="product-pic">
+												<img src="images/lbnl.png" title="NEWS" /></a>
+											</div>
+											<div class="product-pic-info">
+												<a href="http://newscenter.lbl.gov/2015/12/21/2d-islands-in-graphene/" target="_blank"><p>Research on Berkeley Lab news</p></a>
+											</div>
+										</div>
+					                </div>
+					                <div class="item">
+					                	<div class="product-grid">
+											<div class="product-pic">
+												<img src="images/favourite AFM image.png" title="NEWS" /></a>
+											</div>
+											<div class="product-pic-info">
+												<a href="https://uk.pinterest.com/IOPPublishing/stm-and-afm-favourite-images/" target="_blank"><p>F4TCNQ selected as favourite AFM image by IOP Publishing</p></a>
+											</div>
+										</div>
+					                </div>
+					                <div class="item">
+					                	<div class="product-grid">
+											<div class="product-pic">
+												<img src="images/recruitment.png" title="NEWS" /></a>
+											</div>
+											<div class="product-pic-info">
+												<a href="opportunities.html" target="_blank"><p>RESEARCH FELLOWS RECRUITMENT</p></a>
+											</div>
+										</div>
+					                </div>
+					                <div class="item">
+					                	<div class="product-grid">
+											<div class="product-pic">
+												<img src="images/seminar1.png" title="NEWS" /></a>
+											</div>
+											<div class="product-pic-info">
+												<p>Seminar on 2D COF</p>
+											</div>
+										</div>
+					                </div>
+					                <div class="item">
+					                	<div class="product-grid">
+											<div class="product-pic">
+												<img src="images/18.png" title="NEWS" />
+											</div>
+											<div class="product-pic-info">
+												<p>Funny Image: "18"</p>
+											</div>
+										</div>
+					                </div>
+					                <div class="item">
+					                	<div class="product-grid">
+											<div class="product-pic">
+												<img src="images/fridaybasketball.png" title="NEWS" />
+											</div>
+											<div class="product-pic-info">
+												<p>FRIDAY BASKETBALL</p>
+											</div>
+										</div>
+					                </div>
+					                <div class="item">
+					                	<div class="product-grid">
+											<div class="product-pic">
+												<img src="images/bbq.png" title="NEWS" />
+											</div>
+											<div class="product-pic-info">
+												<p>Jurong SAFRA BBQ</p>
+											</div>
+										</div>
+					                </div>
+					                <div class="item">
+					                	<div class="product-grid">
+											<div class="product-pic">
+												<img src="images/lunch.jpg" title="NEWS" /></a>
+											</div>
+											<div class="product-pic-info">
+												<p>New PhD Students Admitted</p>
+											</div>
+										</div>
+					                </div>
+					                <div class="item">
+					                	<div class="product-grid">
+											<div class="product-pic">
+												<img src="images/coming-soon.png" title="NEWS" />
+											</div>
+											<div class="product-pic-info">
+												<p>More Events Coming soon</p>
+											</div>
+										</div>
+					                </div>
+				              </div>
+			</div>
+		</div>
+		</div>
+		<!-- top-grids -->
+		<!-- content -->
+		<!-- footer -->
+		<div class="footer">
+			<div class="footer-grids">
+				<div class="container">
+					<div class="col-md-4 footer-grid">
+				        <h4>Uesful Links</h4>
+				        <ul>
+				          <li><a href="http://www.nus.edu.sg">National University of Singapore</a></li>
+				          <li><a href="http://graphene.nus.edu.sg">Centre for Advanced 2D Materials</a></li>
+				          <li><a href="https://www.chemistry.nus.edu.sg">Department of Chemistry</a></li>
+				          <li><a href="#">Under construction</a></li>
+				        </ul>
+				    </div>
+					<div class="col-md-4 footer-grid">
+						<h4>Contact</h4>
+						<ul>
+							<li><a href="javascript:;">Blk S7 Department of Chemistry</a></li>
+							<li><a href="javascript:;">3 Science Drive 3</a></li>
+							<li><a href="javascript:;">NUS Singapore 117543</a></li>
+							<li><a href="mailto:chmluj@nus.edu.sg">chmluj@nus.edu.sg</a></li>
+						</ul>
+					</div>
+			    	<img src="images/fullcolorlogo.jpg" width="242" height="118" alt=""/>
+               </div>
+			</div>
+  <!-- news-letter -->
+  <div class="container"></div>
+  <!-- news-letter -->
+</div>
+<!-- footer -->
+<!-- copy-right -->
+<div class="copy-right">
+				<p>Copyright &copy; 2015.Lu Jiong's Group All rights reserved. <span id="pv"><b>pv:</b><i></i></span></p>
+		</div>
+		<!-- copy-right -->
+		<!-- container -->
+	<script type="text/javascript">
+		(function(){
+
+			var nums = 1447200000000,
+				pvs = 1000,
+				now = new Date().getTime(),
+				timeDiff = parseInt(((now - nums) / 3600000),10);
+
+				timeDiff = timeDiff < 0 ? -timeDiff : timeDiff;
+
+			pvs+=timeDiff;
+			$('#pv i').html(pvs)
+		})();
+	</script>
+</body>
+</html>
